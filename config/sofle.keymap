@@ -56,7 +56,7 @@
 			
             sensor-bindings =
                 <&rot_kp C_VOL_DN C_VOLUME_UP>,
-                <&rot_kp PG_UP PG_DN>;
+                <&rot_kp PG_DN PG_UP>;
         };
 		
         lower_layer {
