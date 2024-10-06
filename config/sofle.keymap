@@ -53,9 +53,8 @@
 &kp LCTRL   &kp Z     &kp X      &kp C      &kp V        &kp B       &kp C_MUTE      &none        &kp N        &kp M        &kp COMMA     &kp DOT   &kp FSLH   &kp RSHFT
                       &kp LCTRL  &kp LGUI   &kp LALT     &mo RAISE   &mo LOWER       &mo RAISE    &kp SPACE    &kp RALT     &kp K_CMENU   &kp RGUI	
             >;
-
             sensor-bindings =
-                <&inc_dec_kp C_VOL_DN C_VOLUME_UP>,
+                <&rot_kp C_VOL_DN C_VOLUME_UP>,
                 <&rot_kp PG_DN PG_UP>;
         };
 
