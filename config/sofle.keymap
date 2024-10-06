@@ -55,7 +55,7 @@
             >;
 			
             sensor-bindings =
-                <&rot_kp C_VOL_DN C_VOLUME_UP>,
+                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
                 <&rot_kp PG_DN PG_UP>;
         };
 		
