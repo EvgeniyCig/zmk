@@ -53,11 +53,11 @@
 &kp LCTRL   &kp Z     &kp X      &kp C      &kp V        &kp B       &kp C_MUTE      &none        &kp N        &kp M        &kp COMMA     &kp DOT   &kp FSLH   &kp RSHFT
                       &kp LCTRL  &kp LGUI   &kp LALT     &mo RAISE   &mo LOWER       &mo RAISE    &kp SPACE    &kp RALT     &kp K_CMENU   &kp RGUI	
             >;
+			
             sensor-bindings =
                 <&rot_kp C_VOL_DN C_VOLUME_UP>,
                 <&rot_kp PG_DN PG_UP>;
         };
-
         lower_layer {
             display-name = "lower";
             bindings = <
@@ -67,6 +67,10 @@
 &trans      &kp UNDERSCORE  &kp MINUS     &kp PLUS      &kp LBRC      &kp RBRC      &trans    &trans  &kp LBKT   &kp RBKT  &kp SQT    &kp DQT    &kp BSLH  &trans
                             &trans        &trans        &trans        &trans        &trans    &trans  &trans     &trans    &trans     &trans
             >;
+			
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         raise_layer {
@@ -78,6 +82,10 @@
 &trans      &kp LCTRL     &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &kp END     &none          &none         &trans       &none     &none
                           &trans        &trans        &trans        &trans        &trans    &trans  &trans      &trans         &trans        &trans
             >;
+			
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {
