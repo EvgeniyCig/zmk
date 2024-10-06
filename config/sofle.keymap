@@ -37,7 +37,7 @@
         rot_kp: sensor_rotate_kp {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
-            bindings = <&mkp>, <&mkp>;
+            bindings = <&kp>, <&kp>;
         };
     };	
 
@@ -55,8 +55,8 @@
             >;
 			
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
-                <&rot_kp MB4 MB5>;
+                <&rot_kp C_VOLUME_UP C_VOL_DN>,
+                <&rot_kp PG_UP PG_DN>;
         };
 		
         lower_layer {
