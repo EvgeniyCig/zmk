@@ -75,9 +75,9 @@
             display-name = "raise";
             bindings = <
 &kp GRAVE   &kp F1          &kp F2        &kp F3        &kp F4        &kp F5                            &kp F6      &kp F7         &kp F8        &kp F9       &kp F10         &kp F11
-&trans      &kp EXCL        &kp AT        &kp HASH      &kp DLLR      &kp PRCNT                         &none       &kp PG_UP      &kp UP        &kp PG_DN    &kp UNDERSCORE  &kp F12
+&trans      &kp EXCL        &kp AT        &kp HASH      &kp DLLR      &kp PRCNT                         &none       &kp PG_UP      &kp UP        &kp PG_DN    &kp UNDER       &kp F12
 &trans      &kp MINUS       &kp PLUS      &kp EQUAL     &kp LT        &kp GT                            &kp HOME    &kp LEFT       &kp DOWN      &kp RIGHT    &kp INS         &kp DEL
-&trans      &kp UNDERSCORE  &kp LBKT      &kp RBKT      &kp LBRC      &kp RBRC        &trans    &trans  &kp END     &kp SQT        &kp DQT       &kp SEMI     &kp COLON       &none
+&trans      &kp UNDER       &kp LBKT      &kp RBKT      &kp LBRC      &kp RBRC        &trans    &trans  &kp END     &kp SQT        &kp DQT       &kp SEMI     &kp COLON       &none
                             &trans        &trans        &trans        &trans          &trans    &trans  &trans      &trans         &trans        &trans
             >;
 			
